@@ -11,7 +11,7 @@ Preidct_Lambda(df, poisson_model)
 \arguments{
 \item{df}{input dataframe of the original dataset}
 
-\item{poisson_model}{input fitted poisson regression model using glm}
+\item{poisson_model}{poisson_model input fitted poisson regression model using glm}
 }
 \value{
 a vector space of predicted value lambda

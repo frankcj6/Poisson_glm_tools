@@ -4,7 +4,7 @@
 \alias{Possion_IRR}
 \title{Variable Effect IRR risk ratio/risk ration Interpretation
 This function returns risk ratio coefficient for variable
-with 95 percent confidence interval and Pr>|z| }
+with 95 percent confidence interval and Pr>|z|}
 \usage{
 Possion_IRR(possion_model)
 }
@@ -15,7 +15,7 @@ Possion_IRR(possion_model)
 A dataframe that contains the IRR, z value, p-value, and 95 percent confidence interval for the IRR.
 }
 \description{
-Variable Effect IRR(risk ratio/risk ration Interpretation)
+Variable Effect IRR risk ratio/risk ration Interpretation
 This function returns risk ratio coefficient for variable
-with 95 percent confidence interval and Pr(>|z|)
+with 95 percent confidence interval and Pr>|z|
 }

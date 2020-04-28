@@ -4,8 +4,8 @@
 #' @param df input dataframe of the original dataset
 #' @param poisson_model poisson_model input fitted poisson regression model using glm
 #' @return a vector space of predicted value lambda
-#' @output
-#' 
+#' @export
+#'
 Preidct_Lambda<- function(df,poisson_model){
   Results<- summary(poisson_model)
   Coef<- Results$coefficients[,1]
@@ -22,3 +22,4 @@ Preidct_Lambda<- function(df,poisson_model){
   colnames(output)<- 'Predicted_Lambda'
   return(output)
 }
+
