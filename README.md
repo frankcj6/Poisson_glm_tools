@@ -23,4 +23,4 @@ the predicted value under Poisson distribution for each observant.
 
 # Installation:
 use the following code to install packages from github
-install.github('Poissonglm',)
+install.github('Poissonglm', https://github.com/frankcj6/Poisson_glm_tools)
