@@ -7,6 +7,7 @@
 #' @return return a vector space of predicted probability according to
 #' @return poisson distribution
 #' @export
+#' 
 Predict_Prob<- function(value,lambda){
   for (i in 1:value){
     if (value==0){
@@ -23,3 +24,5 @@ Predict_Prob<- function(value,lambda){
   return(pr)
 }
 
+setwd('Poissonglm')
+devtools::document()

@@ -1,8 +1,8 @@
-#' Variable Effect IRR(risk ratio/risk ration Interpretation)
+#' Variable Effect IRR risk ratio/risk ration Interpretation
 #' This function returns risk ratio coefficient for variable
-#' with 95% confidence interval and Pr(>|z|)
+#' with 95 percent confidence interval and Pr>|z|
 #' @param possion_model A fitted possion regression model using glm
-#' @return A dataframe that contains the IRR, z value, p-value, and 95% confidence interval for the IRR.
+#' @return A dataframe that contains the IRR, z value, p-value, and 95 percent confidence interval for the IRR.
 #' @export
 #'
 
@@ -19,6 +19,4 @@ Possion_IRR<- function(possion_model){
   names(output)<- c('IRR','z value','Pr(>|z|)','lower_bound(95% CI)','upper_bound(95% CI)')
   return(output)
 }
-
-
 
