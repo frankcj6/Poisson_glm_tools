@@ -2,4 +2,5 @@
 
 export(Possion_IRR)
 export(Predict_Prob)
+export(Predict_Prob_Negbinom)
 export(Preidct_Lambda)
