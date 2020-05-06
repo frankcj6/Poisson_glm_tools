@@ -3,7 +3,7 @@ R package for Poisson_glm_tools
 
 # Description:
 package name: Poissonglm
-This packages contains four functions that are designed to consolidate the process of performing generlized linear model 
+This packages contains four functions that are designed to consolidate the process of performing generalized linear model 
 using poisson(include negative binomial) distribution. 
 
 All functions are created with the assumption of a possion regression model has already been fitted. 
